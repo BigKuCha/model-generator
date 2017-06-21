@@ -5,7 +5,7 @@ this is a model generator for [jinzhu/gorm](https://github.com/jinzhu/gorm)
 
 Demo
 ===
-![image](https://github.com/BigKuCha/gorm-model-generator/blob/master/media/test.gif)
+![image](https://github.com/BigKuCha/model-generator/blob/master/media/test.gif)
 
 
 Install
@@ -68,4 +68,3 @@ TODO
 ===
 - Multi tables
 - regex 
-- rename Object
