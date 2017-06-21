@@ -1,4 +1,4 @@
-gorm-model-generator
+model-generator
 ===
 
 this is a model generator for [jinzhu/gorm](https://github.com/jinzhu/gorm)
@@ -12,14 +12,14 @@ Install
 ===
 
 ```
-$ go get github.com/bigkucha/gorm-model-generator
+$ go get github.com/bigkucha/model-generator
 ```
 
 Usage
 ===
 
 ```
-$ $GOPATH/bin/gorm-model-generator -u=root -p=(pwd of your mysql) -d=database -t=table -dir=
+$ $GOPATH/bin/model-generator -u=root -p=(pwd of your mysql) -d=database -t=table -dir=
 ```
 
 Flags
@@ -62,7 +62,7 @@ Flags
 
 Note
 ===
- run `$GOPATH/bin/gorm-model-generator -h` for more help
+ run `$GOPATH/bin/model-generator -h` for more help
 
 TODO
 ===
