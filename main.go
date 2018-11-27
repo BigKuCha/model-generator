@@ -33,7 +33,7 @@ func main() {
 		cli.StringFlag{
 			Name:  "dir",
 			Usage: "path which models will be stored",
-			Value: "model",
+			Value: "models",
 		},
 	}
 	app.Action = generator.Generate
