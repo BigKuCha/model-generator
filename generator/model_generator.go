@@ -2,8 +2,8 @@ package generator
 
 import (
 	"fmt"
-	"github.com/BigKuCha/model-generator/database"
-	"github.com/BigKuCha/model-generator/helper"
+	"github.com/bigkucha/model-generator/database"
+	"github.com/bigkucha/model-generator/helper"
 	"github.com/dave/jennifer/jen"
 	"github.com/jinzhu/inflection"
 	"github.com/urfave/cli"

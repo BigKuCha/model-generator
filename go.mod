@@ -1,4 +1,4 @@
-module github.com/BigKuCha/model-generator
+module github.com/bigkucha/model-generator
 
 go 1.13
 

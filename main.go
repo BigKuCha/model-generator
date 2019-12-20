@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/BigKuCha/model-generator/generator"
+	"github.com/bigkucha/model-generator/generator"
 	"github.com/urfave/cli"
 	"os"
 )

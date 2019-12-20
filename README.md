@@ -5,14 +5,14 @@ this is a model generator for [jinzhu/gorm](https://github.com/jinzhu/gorm)
 
 Demo
 ===
-![image](https://github.com/BigKuCha/model-generator/blob/master/media/test.gif)
+![image](https://github.com/bigkucha/model-generator/blob/master/media/test.gif)
 
 
 Install
 ===
 
 ```
-$ go get github.com/BigKuCha/model-generator
+$ go get github.com/bigkucha/model-generator
 ```
 
 Usage
