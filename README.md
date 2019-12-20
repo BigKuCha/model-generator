@@ -12,7 +12,7 @@ Install
 ===
 
 ```
-$ go get github.com/bigkucha/model-generator
+$ go get github.com/BigKuCha/model-generator
 ```
 
 Usage
