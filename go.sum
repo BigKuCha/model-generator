@@ -1,0 +1,8 @@
+github.com/dave/jennifer v0.14.0 h1:etDvjF0GOEQRiKg1XX/7yDDghdU4uDDEJBDTerfz0oA=
+github.com/dave/jennifer v0.14.0/go.mod h1:fIb+770HOpJ2fmN9EPPKOqm1vMGhB+TwXKMZhrIygKg=
+github.com/go-sql-driver/mysql v1.3.0 h1:pgwjLi/dvffoP9aabwkT3AKpXQM93QARkjFhDDqC1UE=
+github.com/go-sql-driver/mysql v1.3.0/go.mod h1:zAC/RDZ24gD3HViQzih4MyKcchzm+sOG5ZlKdlhCg5w=
+github.com/jinzhu/inflection v0.0.0-20160817014601-74387dc39a75 h1:ZJgSIJbk1U5VSUh5Vmd6BRsUtSoHddVjGHUoT3LG4Lg=
+github.com/jinzhu/inflection v0.0.0-20160817014601-74387dc39a75/go.mod h1:h+uFLlag+Qp1Va5pdKtLDYj+kHp5pxUVkryuEj+Srlc=
+github.com/urfave/cli v1.19.1 h1:0mKm4ZoB74PxYmZVua162y1dGt1qc10MyymYRBf3lb8=
+github.com/urfave/cli v1.19.1/go.mod h1:70zkFmudgCuE/ngEzBv17Jvp/497gISqfk5gWijbERA=
