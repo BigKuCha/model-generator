@@ -36,18 +36,19 @@ func generateModel(tableName string, columns []map[string]string, dir string) {
 		column := col["Field"]
 		var st *jen.Statement
 		if column == "id" {
-			st = jen.Id("ID").Uint()
+			st = jen.Id("ID").Uint().Tag(map[string]string{"json": "id"})
 		} else {
 			st = jen.Id(helper.SnakeCase2CamelCase(column, true))
 			getCol(st, t)
+			st.Tag(map[string]string{"json": column})
 		}
 		codes = append(codes, st)
 	}
 	f := jen.NewFilePath(dir)
 	f.Type().Id(helper.SnakeCase2CamelCase(inflection.Singular(tableName), true)).Struct(codes...)
-	os.MkdirAll(dir, os.ModePerm)
-	fileName := dir + "/" + helper.SnakeCase2CamelCase(inflection.Singular(tableName), false) + ".go"
-	f.Save(fileName)
+	_ = os.MkdirAll(dir, os.ModePerm)
+	fileName := dir + "/" + inflection.Singular(tableName) + ".go"
+	_ = f.Save(fileName)
 	fmt.Println(fileName)
 }
 
